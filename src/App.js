@@ -1,3 +1,4 @@
+import './styles/estilosGlobais.scss'
 import Cabecalho from "./componentes/Cabecalho";
 
 function App() {
