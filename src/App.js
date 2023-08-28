@@ -1,13 +1,10 @@
 import './styles/estilosGlobais.scss'
-import Cabecalho from "./componentes/Cabecalho";
-import Menu from './componentes/Menu';
+
+import PaginaInicial from './paginas/PaginaInicial';
 
 function App() {
   return (
-    <>
-      <Cabecalho/>
-      <Menu/>
-    </>
+    <PaginaInicial/>
   );
 }
 
