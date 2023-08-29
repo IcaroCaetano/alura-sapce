@@ -3,6 +3,7 @@ import Cabecalho from "../../componentes/Cabecalho";
 import banner from './banner.png'
 import styles from './PaginaInicial.module.scss'
 import Rodape from "../../componentes/Rodape";
+import Galeria from "../../componentes/Galeria";
 
 function PaginaInicial() {
     return (
@@ -17,6 +18,9 @@ function PaginaInicial() {
           </div>
         </section>
       </main>
+      <div>
+        <Galeria/>
+      </div>
       <Rodape/>
     </>
     )
