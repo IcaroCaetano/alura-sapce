@@ -11,9 +11,9 @@ export default function Galeria() {
   const filtraFotos = (tag) => {
     const novasFotos = fotos.filter((foto) => {
       return foto.tag === tag;
-    })
+    });
     setItens(novasFotos);
-  }
+  };
 
   return (
     <section className={styles.galeria}>
